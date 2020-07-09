@@ -8,7 +8,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && mkdir build && tsc -w",
-    "dev": "nodemon ./build/class_generic.js"
+    "dev": "nodemon ./build/module/product.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
