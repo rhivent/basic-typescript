@@ -1,0 +1,17 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "youtube channel nusendra.com",
+  "main": "index.js",
+  "author": "Riventus",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && mkdir build && tsc -w",
+    "dev": "nodemon ./build/class_generic.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
+  }
+}
